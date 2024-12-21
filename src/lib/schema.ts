@@ -24,3 +24,5 @@ export const courseSchema = z.object({
     isPublished: z.boolean(),
     category: z.string().optional
 });
+
+export const titleSchema = courseSchema.pick({title:true});
