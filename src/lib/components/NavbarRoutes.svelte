@@ -6,7 +6,7 @@ import LogOut from "lucide-svelte/icons/Log-out";
      
 </script>
 
-<div class="flex gap-x-2 ml-auto">
+<div class="flex gap-x-2 ml-auto items-center">
 
     <Button Href="/" size="sm" variant="ghost">
      <LogOut/>

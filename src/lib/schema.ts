@@ -14,4 +14,13 @@ export const registerSchema = z.object({
 }).refine ((data) => data.password === data.passwordConfirm,{
     message: 'password do not match',
     path: ['passwordConfirm']
-})
+});
+
+export const courseSchema = z.object({
+    title: z.string().min(1),
+    description: z.string(),
+    imageUrl: z.string().optional,
+    price: z.number({ coerce:true }).optional,
+    isPublished: z.boolean(),
+    category: z.string().optional
+});
