@@ -25,6 +25,7 @@
 		"prettier-plugin-tailwindcss": "^0.6.5",
 		"svelte": "^5.0.0",
 		"svelte-check": "^4.0.0",
+		"svelte-sonner": "^0.3.28",
 		"sveltekit-superforms": "^2.22.1",
 		"tailwind-merge": "^2.5.5",
 		"tailwind-variants": "^0.3.0",
@@ -39,7 +40,9 @@
 		"@tailwindcss/container-queries": "^0.1.1",
 		"@tailwindcss/forms": "^0.5.9",
 		"@tailwindcss/typography": "^0.5.15",
+		"esbuild": "^0.24.2",
 		"lucide-svelte": "^0.469.0",
+		"mode-watcher": "^0.5.0",
 		"pocketbase": "^0.23.0"
 	}
 }
